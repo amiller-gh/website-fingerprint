@@ -1,0 +1,38 @@
+{
+  "name": "website-fingerprint",
+  "version": "1.0.0",
+  "description": "Fingerprint the visual state of an HTML document.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && broccoli build dist",
+    "watch": "broccoli serve",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiller-gh/website-fingerprint.git"
+  },
+  "author": "Adam Miller <ammiller@linkedin.com>",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/amiller-gh/website-fingerprint/issues"
+  },
+  "homepage": "https://github.com/amiller-gh/website-fingerprint#readme",
+  "devDependencies": {
+    "blueimp-md5": "^2.7.0",
+    "broccoli": "^1.1.3",
+    "broccoli-cli": "^1.0.0",
+    "broccoli-rollup": "^1.3.0",
+    "broccoli-uglify-js": "^0.2.0",
+    "broccoli-uglify-sourcemap": "^1.5.2",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {
+    "broccoli-babel-transpiler": "^5.7.1"
+  }
+}
