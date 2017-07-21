@@ -8,12 +8,12 @@ const PSEUDOS = [
   ':first-letter',
   ':first-line',
   ':selection',
-  ':backdrop ',
-  ':placeholder ',
-  ':marker ',
-  ':spelling-error ',
-  ':grammar-error '
-]
+  ':backdrop',
+  ':placeholder',
+  ':marker',
+  ':spelling-error',
+  ':grammar-error'
+];
 
 export default function fingerprint(){
 
